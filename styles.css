@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  padding: 20px;
+}
+section {
+  margin-left: -50px;
+}
+.img-logo {
+  height: 600px;
+}
+header {
+  margin: 2vw 0px 0px 5vh;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 50px;
+  color: #862e9c;
+}
+h2 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 75px;
+  color: #ae3ec9;
+}
+p {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  width: 500px;
+  color: #be4bdb;
+}
+.button-login {
+  background-color: #be4bdb;
+  border: none;
+  height: 40px;
+  width: 130px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.button-explorar {
+  margin-top: 60px;
+  color: #862e9c;
+  background-color: #ffe066;
+  border: none;
+  cursor: pointer;
+  height: 55px;
+  width: 160px;
+  font-size: 20px;
+  border-radius: 30px;
+  font-weight: 800;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header-links {
+  color: #3c1745;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  cursor: pointer;
+  margin-right: 23px;
+}
+.header-links:hover{
+  opacity: 0.6;
+}
+
+.header-links:active{
+  opacity: 0.4;
+}
+
+button:hover{
+  opacity: 0.9;
+}
+button:active{
+  opacity: 0.6;
+}
+@media screen and (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header,
+  p {
+    display: none;
+  }
+  main {
+    flex-direction: column;
+    padding: 0;
+  }
+  .container-all {
+    margin-top: 20%;
+  }
+  section {
+    margin-left: 0;
+  }
+  .img-logo {
+    height: auto;
+    width: 90vw;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 100%;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 100%;
+  }
+  .button-explorar {
+    margin-top: 10px;
+  }
+}

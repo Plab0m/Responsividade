@@ -16,7 +16,7 @@
 </ul>
 
 <h2>📸 Preview</h2>
-<img src="https://github.com/Plab0m/Responsividade/blob/main/assets/responsividade%20apresenta%C3%A7%C3%A3o%20para%20github.jpg?raw=true" alt="Captura de tela do site responsivo em versão mobile e desktop">
+<img src="https://github.com/Plab0m/Responsividade/blob/main/assets/responsividade%20apresenta%C3%A7%C3%A3o%20para%20github.png?raw=true" alt="Captura de tela do site responsivo em versão mobile e desktop">
 
 ---
 
